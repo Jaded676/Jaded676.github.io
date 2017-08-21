@@ -85,4 +85,8 @@ $('html, body').animate({
 }, 2000);
 });
 
+$('.responsive-tabs').responsiveTabs({
+  accordionOn: ['xs', 'sm'] // xs, sm, md, lg
+});
+
 });

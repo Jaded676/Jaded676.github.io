@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link href="img/fav_icon.png" rel="shortcut icon" type="">
+    <link rel="stylesheet" href="css/bootstrap-responsive-tabs.css">
   </head>
   <body>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
@@ -19,10 +20,11 @@
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/animated-headline.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/jquery.bootstrap-responsive-tabs.min.js"></script>
 
 <!--header-->
 <div class="container-fluid">
-  <nav id="menu" class="navbar navbar-light bg-light navbar-toggleable-md fixed-top container menu_background">
+  <nav id="menu" class="navbar bg-light navbar-toggleable-md fixed-top container menu_background">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,21 +32,21 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav nav_menu">
         <li class="nav-item active"><a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a></li>
-        <li class="nav-item"><a class="nav-link menu-nosotros" href="#Nosotros">Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link menu-planes" href="#Planes">Planes</a></li>
-        <li class="nav-item"><a class="nav-link menu-galeria" href="#Galeria">Galería</a></li>
-        <li class="nav-item"><a class="nav-link menu-categoria" href="#Categorias">Categorías</a></li>
-        <li class="nav-item"><a class="nav-link menu-contacto" href="#Contacto">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Planes">Planes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Galeria">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Categorias">Categorías</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
         <li class="nav-item dropdown">
          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Es</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">English</a>
-              <a class="dropdown-item" href="#">French</a>
-              <a class="dropdown-item" href="#">German</a>
-              <a class="dropdown-item" href="#">Italian</a>
-              <a class="dropdown-item" href="#">Portuguese</a>
-              <a class="dropdown-item" href="#">Russian</a>
-            </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">French</a>
+            <a class="dropdown-item" href="#">German</a>
+            <a class="dropdown-item" href="#">Italian</a>
+            <a class="dropdown-item" href="#">Portuguese</a>
+            <a class="dropdown-item" href="#">Russian</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -57,19 +59,17 @@
         <h1 class="box-headline letters rotate-2">
           <span class="box-words-wrapper">
             <b class="is-visible">Imagina.</b>
-            <b>Crea.</b>
+            <b>Innova.</b>
             <b>Impacta.</b>
           </span>
         </h1>
-        <h4>Sitios web operativos y funcionando entre 48 horas y menos de 1 semana</h4>
+        <h4 class="subtitle_header">Sitios web operativos y funcionando entre 48 horas y menos de 1 semana</h4>
       </div>
       <div class="mouse">
         <div class="scroll"></div>
       </div>
     </section>
-    <!-- <h1 class="display-3">Bienvenidos a SitiosWebChile.cl</h1>
-    <h4>sitios web operativos y funcionando entre 48 horas y menos de 1 semana</h4>
-    <div><a class="btn btn-blue btn-lg" href="#" role="button">Leer más</a></div> -->
+    <!-- <div><a class="btn btn-blue btn-lg" href="#" role="button">Leer más</a></div> -->
   </div>
 </div>
 
@@ -113,7 +113,7 @@
     <h4 class="subtitle_section pt-4 pb-4">¡Somos tu mejor opción!</h4>
   </div>
   <div class="container d-flex flex-column justify-content-center align-items-center">
-    <ul class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs responsive-tabs" role="tablist">
       <li class="nav-item nosTab">
         <i class="fa fa-trophy fa-4x d-flex flex-column justify-content-center align-items-center nav-link active nosotros_option" aria-hidden="true" href="#valor" role="tab" data-toggle="tab">
           <div class="inside">
@@ -141,7 +141,6 @@
             Calidad
           </div>
         </i>
-
       </li>
       <li class="nav-item nosTab">
         <i class="fa fa-diamond fa-4x d-flex flex-column justify-content-center align-items-center nav-link nosotros_option" href="#unicos" role="tab" data-toggle="tab" aria-hidden="true">
@@ -192,8 +191,8 @@
       </div>
       <div class="card card_intro card_plan">
         <div class="card-block d-flex flex-column justify-content-center align-items-center">
-          <h4 class="plan_title pt-3 pb-4">Sitios web económicos</h4>
-          <span class="price">$99.000</span>
+          <h4 class="plan_title pt-3 pb-4">Sitios autoadministrables</h4>
+          <span class="price">$159.000</span>
           <p class="plan_texto">Dominio .cl ó .com<br>Hosting por 1 año</p>
           <ul>
             <li><i class="fa fa-check"></i><a class="plan-list"> Hosting por 1 año</a></li>
@@ -204,8 +203,8 @@
       </div>
       <div class="card card_intro card_plan">
         <div class="card-block d-flex flex-column justify-content-center align-items-center">
-          <h4 class="plan_title pt-3 pb-4">Sitios web económicos</h4>
-          <span class="price">$99.000</span>
+          <h4 class="plan_title pt-3 pb-4">Tiendas Virtuales</h4>
+          <span class="price">$199.000</span>
           <p class="plan_texto">Dominio .cl ó .com<br>Hosting por 1 año</p>
           <ul>
             <li><i class="fa fa-check"></i><a class="plan-list"> Hosting por 1 año</a></li>
@@ -228,15 +227,15 @@
         <div class="slider4">
           <div class="slide">
             <div class="card card_slide"><img class="card-img-top" src="img/cat_1.png" alt="Card image cap"></div>
-            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Abogados</a></div>
+            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Bancos</a></div>
           </div>
           <div class="slide">
-            <div class="card card_slide"><img class="card-img-top" src="img/cat_1.png" alt="Card image cap"></div>
-            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Abogados</a></div>
+            <div class="card card_slide"><img class="card-img-top" src="img/cat_2.png" alt="Card image cap"></div>
+            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Artistas</a></div>
           </div>
           <div class="slide">
-            <div class="card card_slide"><img class="card-img-top" src="img/cat_1.png" alt="Card image cap"></div>
-            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Abogados</a></div>
+            <div class="card card_slide"><img class="card-img-top" src="img/cat_3.png" alt="Card image cap"></div>
+            <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Informática</a></div>
           </div>
           <div class="slide">
             <div class="card card_slide"><img class="card-img-top" src="img/cat_1.png" alt="Card image cap"></div>
@@ -251,12 +250,6 @@
             <div class="card-block card_slide_background"><a href="#" class="subtitle_section">Abogados</a></div>
           </div>
         </div>
-        <!-- <div class="container">
-          <div class="">
-          <i id="slider-prev" aria-hidden="true"></i>
-          <i id="slider-next" aria-hidden="true"></i>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
@@ -297,191 +290,192 @@
       <button class="btn btn_filter filter-button" data-filter="z">z</button>
     </div>
     <br/>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-        <img src="img/a6.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+        <img src="img/a6.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter a">
-          <img src="img/a7.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter a">
+          <img src="img/a7.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter b">
-          <img src="img/b1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter b">
+          <img src="img/b1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter b">
-          <img src="img/b2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter b">
+          <img src="img/b2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c6.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c6.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter c">
-          <img src="img/c7.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter c">
+          <img src="img/c7.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e6.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e6.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter e">
-          <img src="img/e7.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter e">
+          <img src="img/e7.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter f">
-          <img src="img/f1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter f">
+          <img src="img/f1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter f">
-          <img src="img/f2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter f">
+          <img src="img/f2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter f">
-          <img src="img/f3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter f">
+          <img src="img/f3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter f">
-          <img src="img/f4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter f">
+          <img src="img/f4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter g">
-          <img src="img/g1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter g">
+          <img src="img/g1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter i">
-          <img src="img/i1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter i">
+          <img src="img/i1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter i">
-          <img src="img/i2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter i">
+          <img src="img/i2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter i">
-          <img src="img/i3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter i">
+          <img src="img/i3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter j">
-          <img src="img/j1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter j">
+          <img src="img/j1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter m">
-          <img src="img/m6.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter m">
+          <img src="img/m6.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter n">
-          <img src="img/n1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter n">
+          <img src="img/n1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter o">
-          <img src="img/o1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter o">
+          <img src="img/o1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter o">
-          <img src="img/o2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter o">
+          <img src="img/o2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter p">
-          <img src="img/p1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter p">
+          <img src="img/p1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter p">
-          <img src="img/p2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter p">
+          <img src="img/p2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter p">
-          <img src="img/p3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter p">
+          <img src="img/p3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter r">
-          <img src="img/r1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter r">
+          <img src="img/r1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter r">
-          <img src="img/r2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter r">
+          <img src="img/r2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter r">
-          <img src="img/r3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter r">
+          <img src="img/r3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter r">
-          <img src="img/r4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter r">
+          <img src="img/r4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s6.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s6.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter s">
-          <img src="img/s7.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter s">
+          <img src="img/s7.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter t">
-          <img src="img/t1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter t">
+          <img src="img/t1.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter t">
-          <img src="img/t2.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter t">
+          <img src="img/t2.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter t">
-          <img src="img/t3.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter t">
+          <img src="img/t3.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter t">
-          <img src="img/t4.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter t">
+          <img src="img/t4.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter t">
-          <img src="img/t5.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter t">
+          <img src="img/t5.png" class="img-responsive img_responsive">
       </a>
-      <a href="#" class="img_categorias col-lg-2 col-md-2 col-sm-6 col-xs-6 filter v">
-          <img src="img/v1.png" class="img-responsive">
+      <a href="#" class="img_categorias col-lg-2 col-md-3 col-sm-4 col-xs-4 filter v">
+          <img src="img/v1.png" class="img-responsive img_responsive">
       </a>
+
+    </div>
   </div>
-</div>
 </div>
 
 <!--section d contacto-->
@@ -493,14 +487,14 @@
         <label class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input">
           <span class="custom-control-indicator"></span>
-          <span class="custom-control-description subtitle_section">Realizar saber más de un plan</span>
+          <span class="custom-control-description subtitle_section">Desea saber más acerca de un plan</span>
         </label>
       </div>
       <div class="col-sm-6">
         <label class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input">
           <span class="custom-control-indicator"></span>
-          <span class="custom-control-description subtitle_section">Quiere una href="#" página web con hosting</span>
+          <span class="custom-control-description subtitle_section">Quiere una página web con hosting</span>
         </label>
       </div>
     </div>
@@ -509,14 +503,14 @@
         <label class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input">
           <span class="custom-control-indicator"></span>
-          <span class="custom-control-description subtitle_section">Quiere comunicarse con nosotros</span>
+          <span class="custom-control-description subtitle_section">Quiere saber más de nosotros</span>
         </label>
       </div>
       <div class="col-sm-6">
         <label class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input">
           <span class="custom-control-indicator"></span>
-          <span class="custom-control-description subtitle_section">Trato de comunicarse y no pudo</span>
+          <span class="custom-control-description subtitle_section">Trato de comunicarse con nosotros y no pudo</span>
         </label>
       </div>
     </div>
@@ -524,10 +518,10 @@
       <form class="form-inline">
         <div class="form-group">
           <label class="sr-only subtitle_section">Dejenos su email</label>
-          <p class="form-control-static subtitle_section">Dejenos su email para contacto</p>
+          <p class="form-control-static subtitle_section">Dejenos su email para contactarnos con usted</p>
         </div>
         <div class="form-group mx-sm-3">
-          <label for="inputPassword2" class="sr-only">Password</label>
+          <label for="input_email" class="sr-only">Password</label>
           <input type="email" class="form-control" id="email" placeholder="email@example.com">
         </div>
           <button type="submit" class="btn">enviar</button>
@@ -538,61 +532,55 @@
 
 
 <!--footer-->
-<footer class="footer h-100 my-5">
-  <div class="container">
+<footer class="footer h-100">
+  <div class="container text-white">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-xs-12 col-sm-6">
         <ul class="d-flex justify-content-between">
-          <li class="nav-item"><a class="nav-link nav_menu" href="#Inicio">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link nav_menu" href="#Nosotros">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link nav_menu" href="#Planes">Planes</a></li>
-          <li class="nav-item"><a class="nav-link nav_menu" href="#Contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link nav_menu nav_footer" href="#Inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link nav_menu nav_footer" href="#Nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link nav_menu nav_footer" href="#Planes">Planes</a></li>
+          <li class="nav-item"><a class="nav-link nav_menu nav_footer" href="#Contacto">Contacto</a></li>
         </ul>
       </div>
-      <div class="col-sm-6">
-          <ul class="redes d-flex justify-content-end">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
+      <div class="col-xs-12 col-sm-6 mt-2">
+        <ul class="redes d-flex justify-content-center">
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
     </div>
-      <div class="row mt-3">
-        <div class="col-sm-12">
-          <ul class="d-flex justify-content-end">
+      <div class="row mt-3 datos">
+        <div class="col-xs-12 col-sm-12">
+          <ul class="d-flex justify-content-center">
             <li><i class="fa fa-phone" aria-hidden="true"></i> +5623203 3004 / +56977702643.</li>
-            <!-- <li><i class="fa fa-envelope" aria-hidden="true"></i> info@sitioswebchile.net</li> -->
-            <!-- <li><i class="fa fa-map-marker" aria-hidden="true"></i> Nueva York 53 Of.61. (Metro U.de Chile) Santiago - Chile.</li> -->
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="d-flex justify-content-end">
-            <!-- <li><i class="fa fa-phone" aria-hidden="true"></i> +5623203 3004 / +56977702643.</li> -->
+      <div class="row datos">
+        <div class="col-xs-12 col-sm-12">
+          <ul class="d-flex justify-content-center">
             <li><i class="fa fa-envelope" aria-hidden="true"></i> info@sitioswebchile.net</li>
-            <!-- <li><i class="fa fa-map-marker" aria-hidden="true"></i> Nueva York 53 Of.61. (Metro U.de Chile) Santiago - Chile.</li> -->
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="d-flex justify-content-end">
-            <!-- <li><i class="fa fa-phone" aria-hidden="true"></i> +5623203 3004 / +56977702643.</li>
-            <li><i class="fa fa-envelope" aria-hidden="true"></i> info@sitioswebchile.net</li> -->
+      <div class="row datos">
+        <div class="col-xs-12 col-sm-12">
+          <ul class="d-flex justify-content-center">
             <li><i class="fa fa-map-marker" aria-hidden="true"></i> Nueva York 53 Of.61. (Metro U.de Chile) Santiago - Chile.</li>
           </ul>
         </div>
       </div>
-      <div class="row">
-      <div class="col-sm-6 text-left">
-        <p>© 2013 Todos los derechos reservados.</p>
-      </div>
-      <div class="col-sm-6 text-right">
-        <p>Desarrollado por: www.sitiowebchile.cl</p>
+      <div class="row copyright">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <p>© 2013 Todos los derechos reservados.</p>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center">
+          <p>Desarrollado por: www.sitiowebchile.cl</p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>

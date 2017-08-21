@@ -42,14 +42,14 @@ ul > li {
 button.navbar-toggler.navbar-toggler-right {
   border-color: #252a37; }
 
-ul.nav_menu > li a.nav-link.menu-nosotros {
+ul.navbar-nav.nav_menu {
   color: #0f2762;
   font-weight: bold;
   font-size: 1em;
   font-family: "Montserrat", sans-serif; }
 
-ul > li a.nav-link:hover {
-  color: #2255ce; }
+li.nav-item.dropdown {
+  align-self: center; }
 
 .menu_background_inverse {
   background-color: rgba(255, 255, 255, 0.95);
@@ -63,6 +63,11 @@ h1.box-headline.letters.rotate-2 {
   background-position: center;
   background-size: cover;
   height: 100vh; }
+  .background_header .subtitle_header {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #252a37; }
 
 .title_section {
   color: #252a37;
@@ -81,7 +86,7 @@ h1.box-headline.letters.rotate-2 {
   box-shadow: 0 2px 30px 0 #e0e5f0;
   border: 0; }
   .card.card_intro h4.card-title {
-    color: #626c84;
+    color: #252a37;
     font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
     font-weight: bold; }
@@ -174,7 +179,7 @@ b i:last-child {
     -webkit-transform: translateY(20px);
     transform: translateY(20px); } }
 .box-headline {
-  font-size: 130px;
+  font-size: 5em;
   line-height: 1.0; }
 
 .box-words-wrapper {
@@ -322,7 +327,7 @@ b i:last-child {
       font-family: "Montserrat", sans-serif;
       font-size: 0.9em; }
 
-input #inputPassword2 {
+input #input_email {
   color: #6b7c93;
   font-size: 1em;
   font-family: "Raleway", sans-serif;
@@ -333,7 +338,7 @@ input #inputPassword2 {
   padding: 9px 16px;
   text-decoration: none; }
 
-input #inputPassword2:active {
+input #input_email:active {
   color: #6b7c93;
   font-size: 1em;
   font-family: "Raleway", sans-serif;
@@ -345,7 +350,8 @@ input #inputPassword2:active {
   text-decoration: none; }
 
 .bx-wrapper, .bx-viewport {
-  height: 220px !important; }
+  height: 220px !important;
+  border: 0; }
 
 .footerPersonalized {
   background-color: orange;
@@ -356,12 +362,12 @@ input #inputPassword2:active {
   width: 100%;
   overflow: hidden; }
 
-.card .card-inverse .card_slider {
+.card.card-inverse.card_slider {
   background: transparent;
   border: 0; }
-  .card .card-inverse .card_slider .card .card_slide {
+  .card.card-inverse.card_slider .card.card_slide {
     border: 0; }
-  .card .card-inverse .card_slider .card-block .card_slide_background {
+  .card.card-inverse.card_slider .card-block.card_slide_background {
     border: 0;
     background: white; }
 
@@ -410,9 +416,64 @@ input #inputPassword2:active {
   bottom: 0;
   width: 100%;
   height: 50vh;
-  background-color: #f7f9fd; }
+  background-color: #2255ce; }
+
+a.nav-link.nav_menu.nav_footer {
+  font-family: "Montserrat", sans-serif;
+  color: #ddd; }
+
+i.fa.fa-facebook, i.fa.fa-twitter, i.fa.fa-google-plus-official {
+  color: white;
+  font-size: 1.2em; }
+
+.datos {
+  font-size: 0.8em;
+  font-family: "Raleway", sans-serif; }
+
+.copyright {
+  color: #ddd;
+  font-size: 0.6em;
+  font-family: "Raleway", sans-serif; }
 
 .tab-content {
   height: 250px; }
+
+i.fa.fa-facebook {
+  margin-right: 1em; }
+
+i.fa.fa-twitter {
+  margin-right: 1em; }
+
+@media (max-width: 575px) {
+  .box-headline {
+    font-size: 2.5em; }
+
+  .subtitle_header {
+    font-size: 1em; }
+
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .card.card_intro {
+    margin-bottom: 1.2em; }
+
+  .subtitle_section {
+    text-align: center; }
+
+  .bx-viewport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .img_responsive {
+    width: 80%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .img_responsive {
+    width: 90%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .img_responsive {
+    width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
