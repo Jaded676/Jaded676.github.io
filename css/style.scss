@@ -541,6 +541,15 @@ input #input_email:active {
   width: 100%;
 }
 
+.form-control {
+  padding: 0.6rem 6rem;
+}
+
+input#email {
+  padding: 0.6rem 2rem;
+}
+
+
 .footer {
   position: relative;
   bottom: 0;
@@ -549,7 +558,7 @@ input #input_email:active {
   background-color: #2255ce;
 }
 
-a.nav-link.nav_menu.nav_footer {
+a.nav-link.nav_menu.nav_footer__option {
   font-family: $font-family-nav;
   color:#ddd;
 }
@@ -584,6 +593,11 @@ i.fa.fa-twitter {
 
 @media (max-width: 575px) {
 
+  // .collapse.show {
+  //   background-color: rgba(255, 255, 255, 0.45);
+  //   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  // }
+
   .box-headline {
     font-size: 2.5em;
 
@@ -609,6 +623,15 @@ i.fa.fa-twitter {
     flex-direction: column;
     justify-content: center;
   }
+  ul.nav_footer {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  a.nav-link.nav_menu.nav_footer__option {
+    font-size: 0.8em;
+
+  }
 
 
 }
@@ -618,7 +641,17 @@ i.fa.fa-twitter {
   .img_responsive {
     width: 80%;
   }
-
+  .card.card_intro {
+    margin-bottom: 1.4em;
+  }
+  h4.subtitle_section {
+    text-align: center;
+  }
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
  }
 
@@ -628,11 +661,22 @@ i.fa.fa-twitter {
      width: 90%;
    }
 
+
+
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
     .img_responsive {
       width: 90%;
     }
+    .nosTab i {
+     font-size: 3em;
+     }
+     .card.card_intro.card_plan h4.plan_title {
+       text-align: center;
+     }
+     .card.card_intro {
+       width: 18em;
+     }
 
    }

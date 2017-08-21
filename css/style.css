@@ -411,6 +411,12 @@ input #input_email:active {
 .port-image {
   width: 100%; }
 
+.form-control {
+  padding: 0.6rem 6rem; }
+
+input#email {
+  padding: 0.6rem 2rem; }
+
 .footer {
   position: relative;
   bottom: 0;
@@ -418,7 +424,7 @@ input #input_email:active {
   height: 50vh;
   background-color: #2255ce; }
 
-a.nav-link.nav_menu.nav_footer {
+a.nav-link.nav_menu.nav_footer__option {
   font-family: "Montserrat", sans-serif;
   color: #ddd; }
 
@@ -465,15 +471,42 @@ i.fa.fa-twitter {
   .bx-viewport {
     display: flex;
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+
+  ul.nav_footer {
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+  a.nav-link.nav_menu.nav_footer__option {
+    font-size: 0.8em; } }
 @media (min-width: 576px) and (max-width: 767px) {
   .img_responsive {
-    width: 80%; } }
+    width: 80%; }
+
+  .card.card_intro {
+    margin-bottom: 1.4em; }
+
+  h4.subtitle_section {
+    text-align: center; }
+
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .img_responsive {
     width: 90%; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .img_responsive {
-    width: 90%; } }
+    width: 90%; }
+
+  .nosTab i {
+    font-size: 3em; }
+
+  .card.card_intro.card_plan h4.plan_title {
+    text-align: center; }
+
+  .card.card_intro {
+    width: 18em; } }
 
 /*# sourceMappingURL=style.css.map */
