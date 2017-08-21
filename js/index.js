@@ -50,35 +50,35 @@ $(this).removeClass("active");
 }
 $(this).addClass("active");
 
-$(".menu-nosotros").click(function(e) {
+$(".nav_menu_a").click(function(e) {
     e.preventDefault();
 $('html, body').animate({
     scrollTop: $(".nosotros").offset().top
 }, 2000);
 });
 
-$(".menu-planes").click(function(e) {
+$(".nav_menu_b").click(function(e) {
     e.preventDefault();
 $('html, body').animate({
     scrollTop: $(".planes").offset().top
 }, 2000);
 });
 
-$(".menu-galeria").click(function(e) {
+$(".nav_menu_c").click(function(e) {
 e.preventDefault();
 $('html, body').animate({
     scrollTop: $(".galeria").offset().top
 }, 2000);
 });
 
-$(".menu-categoria").click(function(e) {
+$(".nav_menu_d").click(function(e) {
 e.preventDefault();
 $('html, body').animate({
     scrollTop: $(".categorias").offset().top
 }, 2000);
 });
 
-$(".menu-contacto").click(function(e) {
+$(".nav_menu_e").click(function(e) {
 e.preventDefault();
 $('html, body').animate({
     scrollTop: $(".contacto").offset().top
