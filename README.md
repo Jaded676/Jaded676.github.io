@@ -1,6 +1,6 @@
 # redesign_swc
 
-# Como visualizar el proyecto.
+# Como visualizar el proyecto
 
 1. Entrar a la dirección: https://jaded676.github.io/
 
@@ -8,11 +8,9 @@
 
 # Rediseño de Sitiowebchile.cl
 
-#Brief
-
 _Sitiowebchile.cl es una empresa que se dedica a la venta de websites, desde el diseño hasta el desarrollo, bajo la modalidad de planes. Se quiere realizar rediseño de la web para tener una imagen más acorde con lo que hace la empresa y sus objetivos._
 
-#Benchmark
+#Análisis
 
 Actualmente, la página no posee una estructura organizada de la información tanto de la empresa como los servicios que ofrece, existe la necesidad de realizar un rediseño para crear una interfaz más coherente con los objetivos y con la imagen que la empresa desea proyectar a sus clientes, para así ser competitiva.
 
@@ -20,7 +18,7 @@ Actualmente, la página no posee una estructura organizada de la información ta
 
 Metodología DCU (metodología centrada en el usuario)
 
-#Planificación estrategica
+#Planificación estratégica
 
 #Objetivos
 
@@ -32,7 +30,7 @@ Metodología DCU (metodología centrada en el usuario)
 #Descripción de la Estrategia
 
 * Rediseño de la interfaz del sitio web para crear una mejor experiencia de usuario, aumentar su usabilidad, y mejorar su línea gráfica, reafirmando la imagen de la empresa.
-* Innovar las tecnologías implementadas para la creación del sitio web.
+* Innovar las tecnologías implementadas para la creación del sitio web. Siguiendo las tendencias actuales.
 * Mejorar la organización de la información.
 
 
@@ -40,4 +38,4 @@ Metodología DCU (metodología centrada en el usuario)
 
 Mapa/ wireframes / Mockup / Prototipo
 
-> Note: Dentro del repositorio existe una carpeta llamada "Diseño", donde se encuentra los wireframes, mockup y el mapa de navegación de la website.
+> Note: Dentro del repositorio existe una carpeta llamada "Design", donde se encuentra los wireframes, mockup y el mapa de navegación de la website.
