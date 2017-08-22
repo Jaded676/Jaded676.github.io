@@ -4,7 +4,7 @@
 
 1. Entrar a la dirección: https://jaded676.github.io/
 
-> Note: Si se desea ver el detalle del proyecto, hacer clone del repositorio.
+> Note: Si se desea ver el detalle del proyecto, clonar del repositorio.
 
 # Rediseño de Sitiowebchile.cl
 
@@ -15,7 +15,6 @@ _Sitiowebchile.cl es una empresa que se dedica a la venta de websites, desde el 
 #Benchmark
 
 Actualmente, la página no posee una estructura organizada de la información tanto de la empresa como los servicios que ofrece, existe la necesidad de realizar un rediseño para crear una interfaz más coherente con los objetivos y con la imagen que la empresa desea proyectar a sus clientes, para así ser competitiva.
-
 
 #Metodología
 
@@ -37,8 +36,8 @@ Metodología DCU (metodología centrada en el usuario)
 * Mejorar la organización de la información.
 
 
-#Arquitectura de información
+#Arquitectura de información #Diseño de interfaz de usuario
 
-#Diseño de interfaz de usuario
+Mapa/ wireframes / Mockup / Prototipo
 
-#wireframes / Mockup / Prototipo
+> Note: Dentro del repositorio existe una carpeta llamada "Diseño", donde se encuentra los wireframes, mockup y el mapa de navegación de la website.
