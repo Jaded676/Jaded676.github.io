@@ -83,10 +83,6 @@ ul.navbar-nav.nav_menu {
   font-family: $font-family-nav;
 }
 
-// ul > li a.nav-link:hover {
-//   color: #2255ce;
-// }
-
 li.nav-item.dropdown {
   align-self: center;
 }
@@ -218,40 +214,39 @@ b i:last-child {
 }
 
 @keyframes intro {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(40px);
-        transform: translateY(40px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(40px);
+      transform: translateY(40px);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
 }
 
 @-webkit-keyframes finger {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-    }
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+  }
 }
 
 @keyframes finger {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-    }
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+  }
 }
-
 
 .box-headline {
   font-size: 5em;
@@ -472,16 +467,6 @@ input #input_email:active {
   border: 0;
 }
 
-.footerPersonalized {
-  background-color: orange;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  overflow:hidden;
-}
-
 .card.card-inverse.card_slider {
   background: transparent;
   border:0;
@@ -549,7 +534,6 @@ input#email {
   padding: 0.6rem 2rem;
 }
 
-
 .footer {
   position: relative;
   bottom: 0;
@@ -590,27 +574,22 @@ i.fa.fa-twitter {
   margin-right: 1em;
 }
 
-
 @media (max-width: 575px) {
 
   .collapse.show {
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
   }
-
   .box-headline {
     font-size: 2.5em;
-
   }
   .subtitle_header {
     font-size: 1em;
-
   }
   .card-deck {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
   .card.card_intro {
     margin-bottom: 1.2em;
@@ -623,17 +602,16 @@ i.fa.fa-twitter {
     flex-direction: column;
     justify-content: center;
   }
+  .galeria {
+    display: none;
+  }
   ul.nav_footer {
-
     flex-direction: row;
     flex-wrap: wrap;
   }
   a.nav-link.nav_menu.nav_footer__option {
     font-size: 0.8em;
-
   }
-
-
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -652,12 +630,13 @@ i.fa.fa-twitter {
     flex-direction: column;
     align-items: center;
   }
+  .galeria {
+    display: none;
+  }
   ul.nav_footer {
-
     flex-direction: row;
     flex-wrap: wrap;
   }
-
  }
 
  @media (min-width: 768px) and (max-width: 991px) {
@@ -665,9 +644,6 @@ i.fa.fa-twitter {
    .img_responsive {
      width: 90%;
    }
-
-
-
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {

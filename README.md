@@ -1,10 +1,10 @@
 # redesign_swc
 
-# Pasos para visualizar la Web
+# Como visualizar el proyecto.
 
-1.
+1. Entrar a la dirección: https://jaded676.github.io/
 
-> Note:
+> Note: Si se desea ver el detalle del proyecto, hacer clone del repositorio.
 
 # Rediseño de Sitiowebchile.cl
 
@@ -14,7 +14,7 @@ _Sitiowebchile.cl es una empresa que se dedica a la venta de websites, desde el 
 
 #Benchmark
 
-Actualmente, la página no posee una estructura organizada de la información tanto de la empresa como los servicios que ofrece, existe la necesidad de realizar un rediseño para crear una interfaz más coherente con los objetivos y con la imagen que la empresa desea proyectar a sus clientes.
+Actualmente, la página no posee una estructura organizada de la información tanto de la empresa como los servicios que ofrece, existe la necesidad de realizar un rediseño para crear una interfaz más coherente con los objetivos y con la imagen que la empresa desea proyectar a sus clientes, para así ser competitiva.
 
 
 #Metodología
